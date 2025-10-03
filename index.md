@@ -13,3 +13,10 @@ I am a History PhD Candidate French History.
 
 {% assign essays = site.pages | where: "homepage", true %}
 {% include card-list.html cards = essays %}
+
+{% include figure.html
+  class="right"
+  width="60%"
+  caption="What a nice view"
+  image-path="/assets/images/Prise_de_la_Bastille.webp"
+%}
